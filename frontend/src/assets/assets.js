@@ -119,88 +119,88 @@ export const menu_list = [
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "Greek Salad",
         image: food_1,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "A fresh salad offers a variety of vitamins, minerals, and fiber, promoting good digestion and overall health",
         category: "Salad"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "Veg Salad",
         image: food_2,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "A fresh salad offers a variety of vitamins, minerals, and fiber, promoting good digestion and overall health",
         category: "Salad"
     }, {
         _id: "3",
         name: "Clover Salad",
         image: food_3,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "A fresh salad offers a variety of vitamins, minerals, and fiber, promoting good digestion and overall health",
         category: "Salad"
     }, {
         _id: "4",
         name: "Chicken Salad",
         image: food_4,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "A fresh salad offers a variety of vitamins, minerals, and fiber, promoting good digestion and overall health",
         category: "Salad"
     }, {
         _id: "5",
         name: "Lasagna Rolls",
         image: food_5,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Rolls provide a convenient and tasty source of carbohydrates, fueling your body with energy",
         category: "Rolls"
     }, {
         _id: "6",
         name: "Peri Peri Rolls",
         image: food_6,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Rolls provide a convenient and tasty source of carbohydrates, fueling your body with energy",
         category: "Rolls"
     }, {
         _id: "7",
         name: "Chicken Rolls",
         image: food_7,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Rolls provide a convenient and tasty source of carbohydrates, fueling your body with energy",
         category: "Rolls"
     }, {
         _id: "8",
         name: "Veg Rolls",
         image: food_8,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Rolls provide a convenient and tasty source of carbohydrates, fueling your body with energy",
         category: "Rolls"
     }, {
         _id: "9",
         name: "Ripple Ice Cream",
         image: food_9,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Desserts add a sweet finish to meals, offering a delightful way to enjoy occasional indulgence",
         category: "Deserts"
     }, {
         _id: "10",
         name: "Fruit Ice Cream",
         image: food_10,
         price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Desserts add a sweet finish to meals, offering a delightful way to enjoy occasional indulgence",
         category: "Deserts"
     }, {
         _id: "11",
         name: "Jar Ice Cream",
         image: food_11,
         price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Desserts add a sweet finish to meals, offering a delightful way to enjoy occasional indulgence",
         category: "Deserts"
     }, {
         _id: "12",
         name: "Vanilla Ice Cream",
         image: food_12,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Desserts add a sweet finish to meals, offering a delightful way to enjoy occasional indulgence",
         category: "Deserts"
     },
     {
@@ -208,7 +208,7 @@ export const food_list = [
         name: "Chicken Sandwich",
         image: food_13,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "A well-balanced sandwich combines proteins, carbohydrates, and vegetables, making a nutritious and satisfying meal",
         category: "Sandwich"
     },
     {
@@ -216,77 +216,77 @@ export const food_list = [
         name: "Vegan Sandwich",
         image: food_14,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "A well-balanced sandwich combines proteins, carbohydrates, and vegetables, making a nutritious and satisfying meal",
         category: "Sandwich"
     }, {
         _id: "15",
         name: "Grilled Sandwich",
         image: food_15,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "A well-balanced sandwich combines proteins, carbohydrates, and vegetables, making a nutritious and satisfying meal",
         category: "Sandwich"
     }, {
         _id: "16",
         name: "Bread Sandwich",
         image: food_16,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "A well-balanced sandwich combines proteins, carbohydrates, and vegetables, making a nutritious and satisfying meal",
         category: "Sandwich"
     }, {
         _id: "17",
         name: "Cup Cake",
         image: food_17,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Cake, enjoyed in moderation, can be a delightful treat that lifts your mood and celebrates special occasions",
         category: "Cake"
     }, {
         _id: "18",
         name: "Vegan Cake",
         image: food_18,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Cake, enjoyed in moderation, can be a delightful treat that lifts your mood and celebrates special occasions",
         category: "Cake"
     }, {
         _id: "19",
         name: "Butterscotch Cake",
         image: food_19,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Cake, enjoyed in moderation, can be a delightful treat that lifts your mood and celebrates special occasions",
         category: "Cake"
     }, {
         _id: "20",
         name: "Sliced Cake",
         image: food_20,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Cake, enjoyed in moderation, can be a delightful treat that lifts your mood and celebrates special occasions",
         category: "Cake"
     }, {
         _id: "21",
         name: "Garlic Mushroom ",
         image: food_21,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Pure vegetarian dishes are rich in plant-based nutrients, supporting a healthy and sustainable diet",
         category: "Pure Veg"
     }, {
         _id: "22",
         name: "Fried Cauliflower",
         image: food_22,
         price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Pure vegetarian dishes are rich in plant-based nutrients, supporting a healthy and sustainable diet",
         category: "Pure Veg"
     }, {
         _id: "23",
         name: "Mix Veg Pulao",
         image: food_23,
         price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Pure vegetarian dishes are rich in plant-based nutrients, supporting a healthy and sustainable diet",
         category: "Pure Veg"
     }, {
         _id: "24",
         name: "Rice Zucchini",
         image: food_24,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Pure vegetarian dishes are rich in plant-based nutrients, supporting a healthy and sustainable diet",
         category: "Pure Veg"
     },
     {
@@ -294,7 +294,7 @@ export const food_list = [
         name: "Cheese Pasta",
         image: food_25,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Pasta serves as a versatile and filling meal option, providing energy and essential nutrients",
         category: "Pasta"
     },
     {
@@ -302,49 +302,49 @@ export const food_list = [
         name: "Tomato Pasta",
         image: food_26,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Pasta serves as a versatile and filling meal option, providing energy and essential nutrients",
         category: "Pasta"
     }, {
         _id: "27",
         name: "Creamy Pasta",
         image: food_27,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Pasta serves as a versatile and filling meal option, providing energy and essential nutrients",
         category: "Pasta"
     }, {
         _id: "28",
         name: "Chicken Pasta",
         image: food_28,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Pasta serves as a versatile and filling meal option, providing energy and essential nutrients",
         category: "Pasta"
     }, {
         _id: "29",
         name: "Buttter Noodles",
         image: food_29,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Noodles are a quick and tasty dish, often enriched with vegetables and proteins for a balanced meal",
         category: "Noodles"
     }, {
         _id: "30",
         name: "Veg Noodles",
         image: food_30,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Noodles are a quick and tasty dish, often enriched with vegetables and proteins for a balanced meal",
         category: "Noodles"
     }, {
         _id: "31",
         name: "Somen Noodles",
         image: food_31,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Noodles are a quick and tasty dish, often enriched with vegetables and proteins for a balanced meal",
         category: "Noodles"
     }, {
         _id: "32",
         name: "Cooked Noodles",
         image: food_32,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
+        description: "Noodles are a quick and tasty dish, often enriched with vegetables and proteins for a balanced meal",
         category: "Noodles"
     }
 ]
