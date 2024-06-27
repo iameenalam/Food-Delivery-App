@@ -24,7 +24,7 @@ app.use("/api/food",foodRouter)
 app.use("/images",express.static('uploads'))
 app.use("/api/user",userRouter)
 app.use("/api/cart",cartRouter)
-app.use("api/order",orderRouter)
+app.use("/api/order",orderRouter)
 
 app.get("/",(req,res)=>{
     res.send("API Working")
@@ -33,5 +33,3 @@ app.get("/",(req,res)=>{
 app.listen(port,()=>{
     console.log(`Server Started on http://localhost:${port}`)
 })
-
-// mongodb+srv://ameenalam98:aacricket@cluster0.09i1vxl.mongodb.net/?
