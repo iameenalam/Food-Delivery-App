@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-top: 50px;
 }
 .explore-menu h1{
-    color: #262626;
+    color: black;
     font-weight: 500;
 }
 .explore-menu-text{
@@ -43,7 +44,7 @@
     border: none;
 }
 .explore-menu-list-item .active{
-    border: 4px solid tomato;
+    border: 4px solid #CD1717;
     padding: 2px;
 }
 @media (max-width:1050px) {

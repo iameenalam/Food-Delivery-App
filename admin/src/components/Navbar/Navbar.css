@@ -5,7 +5,17 @@
     padding: 8px 4%;
 }
 .navbar .logo{
-    width: max(10%,80px);
+    width: 150px;
+    height: 45px;
+    color: #EE3C02;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar h6 {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
 }
 
 .navbar .profile{

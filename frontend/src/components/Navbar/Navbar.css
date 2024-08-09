@@ -7,6 +7,11 @@
 
 .navbar .logo{
     width: 150px;
+    height: 45px;
+    color: #EE3C02;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-menu{
@@ -25,7 +30,7 @@
 
 .navbar button{
     background: transparent;
-    font-size: 16px;
+    font-size: 18px;
     color: #49557e;
     border: 1px solid tomato;
     padding: 10px 30px;
@@ -40,18 +45,18 @@
 
 .navbar .active{
     padding-bottom: 2px;
-    border-bottom: 2px solid #49557e;
+    border-bottom: 2px solid #EE3C02;
 }
 
 .navbar li{
     cursor: pointer;
 }
 
-.navbar-search-icon{
+.navbar-basket-icon{
     position: relative;
 }
 
-.navbar-search-icon .dot{
+.navbar-basket-icon .dot{
     position: absolute;
     min-width: 10px;
     min-height: 10px;
@@ -100,8 +105,10 @@
 }
 
 @media (max-width:900px) {
-    .navbar .logo{
+    .navbar .logo {
         width: 120px;
+        height: 36px;
+        font-size: 1.4rem;
     }
     .navbar-menu{
         gap: 15px;
@@ -120,6 +127,12 @@
 }
 
 @media (max-width:750px) {
+    .navbar .logo {
+        width: 100px;
+        height: 30px;
+        font-size: 1.2rem;
+    }
+
     .navbar-menu{
         display: none;
     }
