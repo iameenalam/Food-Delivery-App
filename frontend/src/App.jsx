@@ -15,14 +15,11 @@ const App = () => {
 
   return (
     <>
-      {/* Conditionally render the LoginPopup if showLogin is true */}
       {showLogin && <LoginPopup setShowLogin={setShowLogin} />}
       
       <div className="app">
-        {/* Pass setShowLogin to Navbar if needed for any login triggers */}
         <Navbar setShowLogin={setShowLogin} />
         
-        {/* Pass setShowLogin to Cart to trigger the login popup from there */}
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/cart' element={<Cart setShowLogin={setShowLogin}/>} />
