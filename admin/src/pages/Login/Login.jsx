@@ -20,10 +20,7 @@ const LoginPopup = ({ setShowLogin, onLoginSuccess }) => {
     const { email, password } = data;
 
     // Check user credentials
-    if (
-      email === process.env.REACT_APP_LOGIN_EMAIL &&
-      password === process.env.REACT_APP_LOGIN_PASSWORD
-    ) {
+    if (email === "admin123@gmail.com" && password === "adminxxx123") {
       onLoginSuccess(); // Call the success function passed as a prop
       setShowLogin(false); // Close the login popup
     } else {
