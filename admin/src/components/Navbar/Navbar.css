@@ -21,3 +21,15 @@
 .navbar .profile{
     width: 40px;
 }
+
+/* Additional styles for the logout icon */
+.navbar .logout-icon {
+    width: 30px; /* Set the width of the logout icon */
+    height: 30px; /* Set the height of the logout icon */
+    margin-left: 10px; /* Add space between the logo and the logout icon */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.navbar .logout-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
