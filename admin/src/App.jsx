@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Sidebar from './components/Sidebar/Sidebar';
@@ -6,45 +5,50 @@ import { Route, Routes } from 'react-router-dom';
 import Add from './pages/Add/Add';
 import List from './pages/List/List';
 import Orders from './pages/Orders/Orders';
-import LoginPopup from './pages/Login/Login'; // Ensure you import LoginPopup
+import LoginPopup from './pages/Login/Login'; 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   const url = "https://food-del-backend-6so3.onrender.com";
-  
-  const [isAuthenticated, setIsAuthenticated] = useState(false); // Authentication state
-  const [showLogin, setShowLogin] = useState(true); // State to control the visibility of the login popup
 
+  // State for authentication
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [showLogin, setShowLogin] = useState(true); 
+  const [loading, setLoading] = useState(true); // State to handle loading
+
+  // Check localStorage for authentication status on initial load
   useEffect(() => {
-    // Check local storage for the authentication state
-    const loggedIn = localStorage.getItem('isAuthenticated');
-    if (loggedIn === 'true') {
-      setIsAuthenticated(true); // Set authenticated state if the user was logged in
-      setShowLogin(false); // Hide the login popup
-    }
+    const storedAuthStatus = localStorage.getItem('isAuthenticated') === 'true';
+    setIsAuthenticated(storedAuthStatus);
+    setShowLogin(!storedAuthStatus); // Show login popup if not authenticated
+    setLoading(false); // Set loading to false after checking auth status
   }, []);
 
   const handleLogin = () => {
-    setIsAuthenticated(true); // Update authentication state
-    setShowLogin(false); // Hide login popup on successful login
-    localStorage.setItem('isAuthenticated', 'true'); // Store the authentication state in local storage
+    setIsAuthenticated(true);
+    localStorage.setItem('isAuthenticated', 'true'); 
+    setShowLogin(false);
   };
 
   const handleLogout = () => {
-    setIsAuthenticated(false); // Update authentication state to false
-    setShowLogin(true); // Show the login popup again
-    localStorage.removeItem('isAuthenticated'); // Clear the authentication state from local storage
+    setIsAuthenticated(false);
+    localStorage.removeItem('isAuthenticated'); 
+    setShowLogin(true);
   };
+
+  if (loading) {
+    return <div>Loading...</div>; // Show a loading message while checking authentication
+  }
 
   return (
     <div>
       <ToastContainer />
-      <Navbar onLogout={handleLogout} /> {/* Pass the handleLogout function to Navbar */}
+      <Navbar onLogout={handleLogout} />
       <hr />
       <div className="app-content">
         <Sidebar />
-        {showLogin && !isAuthenticated ? ( // Conditional rendering based on authentication and popup state
+        {showLogin ? (
           <LoginPopup setShowLogin={setShowLogin} onLoginSuccess={handleLogin} />
         ) : (
           <Routes>
