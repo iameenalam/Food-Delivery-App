@@ -1,5 +1,12 @@
 import mongoose from "mongoose";
 
 export const connectDB = async () => {
-    await mongoose.connect('mongodb+srv://ameenalam98:aacricket@cluster0.09i1vxl.mongodb.net/food-del').then(()=>console.log("DataBase Connected"));
-}
+  const uri = process.env.MONGODB_URI;
+  if (!uri) {
+    throw new Error("MONGODB_URI is not defined in environment variables");
+  }
+
+  await mongoose.connect(uri)
+    .then(() => console.log("Database Connected"))
+    .catch((err) => console.error("Database Connection Error:", err));
+};
